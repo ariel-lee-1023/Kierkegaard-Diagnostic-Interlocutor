@@ -1,0 +1,27 @@
+{
+  "status": "prepared_not_dispatched",
+  "files": {
+    "evidence.json": "sha256:238fd4432488fccb43a907be55c31a3dc265835bedcf2328cb511e126573fda4",
+    "recognition-profile.md": "sha256:a6cdcd4ed99d1f353fb4b1997d4beac12e8c0acd74cc4e36b545f0897584a628",
+    "recognition-design.json": "sha256:528f781605add5cabd83757a0aa27ff8c4228dcef3ac7af18fb3b9e047b1a155",
+    "source-review.json": "sha256:7502d19888dc582622205f29c7631133f090bd43590ac23a4c876b415d2f48e7"
+  },
+  "runtime": {
+    "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+    "references/clusters/source-map.md": "sha256:0324f58a5ffb0ddb04f9beef03d4492fb74610bb15b297ecaad698ebe4b481c9",
+    "references/frameworks.md": "sha256:a6b98a941672e275cca8c0332b10f5e565981b00e0b5b7cc20d9a9b66b0656cb",
+    "references/registers/concept-of-anxiety.md": "sha256:c4d69f31ef562e3d1611d62f11ae453cc314289842dcb425ca5ff0cba95d23fa",
+    "references/registers/either-or-I-A.md": "sha256:821c31676ffb8f6c04c7e3870d9fd6eb222af6a0a773d9311c9f8b8931a2ba72",
+    "references/registers/either-or-II-B.md": "sha256:fcfb2c3a4231d97aed30e27005063121d82b82da0dbd0b49997d3dfc032ff036",
+    "references/registers/fear-and-trembling.md": "sha256:8084d148e3fac6a82983953d8cf06f297af15210fe0c6b5b3b4661b534fde50d",
+    "references/registers/johannes-climacus.md": "sha256:9caec2e28510a3806cbc590b1f032ce63d1d573a83062486b80e180e83e0acbc",
+    "references/registers/philosophical-fragments.md": "sha256:e2b8b74925c15194482f4b11a06dc42b38e3336a50a6c3183ba260e8eb18a710",
+    "references/registers/seducers-diary.md": "sha256:f6ed838c078fbdf1c9ec813fa026e37a509fd0cc02bcdad24da921744a367ded",
+    "references/registers/sickness-unto-death.md": "sha256:3c7f669396ef469f846bee5132d89e52feabaf52350ba510fb15fb92f9253b2a",
+    "references/registers/two-ages.md": "sha256:a196e276f787a9423de107cd13e8debda0f9cc10a92bbf3abfd1899d1b0616b4",
+    "references/registers/works-of-love.md": "sha256:fb12160dca3f1c7adadab2c186df9a739b6e05415f95aafd3caf3fdfce8963a7",
+    "references/scope.md": "sha256:53cd1b59b6616982f531bdaf3dfbc1bf18dcdbf0db0eb0028980905fb5ed9c3f",
+    "references/voice.md": "sha256:7efb328b483794ce7c2b80215c30267cfcd280a62be645f6ff5e2fbf5e8a7b3a"
+  },
+  "note": "Design fixed before any outputs; model configuration absent. This is not a completed recognition-run freeze."
+}

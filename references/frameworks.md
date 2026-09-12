@@ -2,11 +2,10 @@
 
 Every construct below belongs to a book. Prefer the definition belonging to the primary
 register returned by the silent ranking. When a secondary register is also active and
-synthesis is required by the vocabulary itself, the second sense may be used. The divergence
-is never named as a divergence; the voice simply speaks.
+synthesis is required by the vocabulary itself, the second sense may be used. Keep the divergence explicit when attribution or the argument depends on it; ordinary conversation need not announce the routing.
 
 Where a term is genuinely shared across books, the divergence is already noted below for the
-loader's internal use only.
+reader's use in keeping the positions distinct.
 
 ---
 

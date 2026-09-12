@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "status": "migrated",
+  "baseline": {
+    "runtime_files": {
+      "SKILL.md": "sha256:4e5ef18716d687c628b0850ab02469b696def547cf797becefedbce685bc29b0",
+      "references/frameworks.md": "sha256:2af750f5e7d68421ccfd16a6efc57de8f6e4f04eb18948fb38e6bee1252db043",
+      "references/registers/concept-of-anxiety.md": "sha256:12f50784f8166206c50bfe18495721b832c9af4c2377f6d959df614ac97473ff",
+      "references/registers/either-or-I-A.md": "sha256:b63e6da65ccc356c00591e3885554e30ec3253f03b7f5c931fb3d3d1605a51c4",
+      "references/registers/either-or-II-B.md": "sha256:b816362b7d175ea89766ce706c43d1ab0315a687bd5290ca2453049681cf8461",
+      "references/registers/fear-and-trembling.md": "sha256:909784886b11d02ac6a0aebe9c87924743cfe1242c3b057b4d10dd1eaa6d4dbc",
+      "references/registers/johannes-climacus.md": "sha256:1e6a6d1ae452bef1eb5581641b756de30c0f9dbe3310b67fa8b9e76fc0d4390b",
+      "references/registers/philosophical-fragments.md": "sha256:becf492922a0224157eab1823aef92d2f0282bd6fce22518f2bfe7f715236ed1",
+      "references/registers/seducers-diary.md": "sha256:a064443fb37ad48e86e246757a2a47203691a07e773ecd2f6fb40a8f1c5b5954",
+      "references/registers/sickness-unto-death.md": "sha256:98f75247cb2f58636af2a50f1a0ab8aafa970a030c8894b1ce953af6a73ffb48",
+      "references/registers/two-ages.md": "sha256:1506d9383b9b487e44132c4ef589ca05cef50db78fad65ed2cf5ccd596a0610d",
+      "references/registers/works-of-love.md": "sha256:7b2ff1063650f76650bed499cb2d2cf961e600479c68286aa613804f8da2114b",
+      "references/voice.md": "sha256:19f3da5c5401888ddbb4ea76a500c5a00ae495a8b491b3f15d381a132b78337a"
+    },
+    "runtime_layout": ".",
+    "evaluation_record": null,
+    "revision": "03a21d24555c47de66c4694cb005a5d5ad00a9db",
+    "working_tree": "?? AGENTS.md"
+  },
+  "files": {
+    "episodic.md": "4e84c701af55c54383cc8612d22f4c8769e79f4456299968d63c96113731467c",
+    "provenance.md": "5b5d4ffdc7ac278a879044b8f5a398d8f2251adbfc3a3ed7679ad66da3c1b387"
+  },
+  "relocation": {
+    "fidelity-ledger/": "transworld-identity/"
+  },
+  "active_files_updated": [
+    "SKILL.md",
+    "README.md"
+  ],
+  "operational_updates": [],
+  "model_calls": 0,
+  "assessment": "Historical outcomes retain original inputs; no new acceptance inferred."
+}

@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "mode": "standard",
+  "timestamp": 1789220971.698194,
+  "delivery_status": "candidate",
+  "summary": "Legacy renovation completed as Candidate: runtime conditions and attribution revised, historical evidence retained; primary-source reverification and machine recognition remain incomplete.",
+  "runtime_error": null,
+  "runtime_hash": "sha256:76db134c7b2c9e905c0d2097a04ec643e394728b6156d6cf91e1c023586c3819",
+  "module_hashes": {
+    "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+    "references/clusters/source-map.md": "sha256:370daa24a766130731c3cc693c7c50309db20ba406af1ed9ec27ad30a74354bf",
+    "references/frameworks.md": "sha256:a6b98a941672e275cca8c0332b10f5e565981b00e0b5b7cc20d9a9b66b0656cb",
+    "references/registers/concept-of-anxiety.md": "sha256:c4d69f31ef562e3d1611d62f11ae453cc314289842dcb425ca5ff0cba95d23fa",
+    "references/registers/either-or-I-A.md": "sha256:821c31676ffb8f6c04c7e3870d9fd6eb222af6a0a773d9311c9f8b8931a2ba72",
+    "references/registers/either-or-II-B.md": "sha256:fcfb2c3a4231d97aed30e27005063121d82b82da0dbd0b49997d3dfc032ff036",
+    "references/registers/fear-and-trembling.md": "sha256:8084d148e3fac6a82983953d8cf06f297af15210fe0c6b5b3b4661b534fde50d",
+    "references/registers/johannes-climacus.md": "sha256:9caec2e28510a3806cbc590b1f032ce63d1d573a83062486b80e180e83e0acbc",
+    "references/registers/philosophical-fragments.md": "sha256:e2b8b74925c15194482f4b11a06dc42b38e3336a50a6c3183ba260e8eb18a710",
+    "references/registers/seducers-diary.md": "sha256:f6ed838c078fbdf1c9ec813fa026e37a509fd0cc02bcdad24da921744a367ded",
+    "references/registers/sickness-unto-death.md": "sha256:3c7f669396ef469f846bee5132d89e52feabaf52350ba510fb15fb92f9253b2a",
+    "references/registers/two-ages.md": "sha256:a196e276f787a9423de107cd13e8debda0f9cc10a92bbf3abfd1899d1b0616b4",
+    "references/registers/works-of-love.md": "sha256:fb12160dca3f1c7adadab2c186df9a739b6e05415f95aafd3caf3fdfce8963a7",
+    "references/scope.md": "sha256:53cd1b59b6616982f531bdaf3dfbc1bf18dcdbf0db0eb0028980905fb5ed9c3f",
+    "references/voice.md": "sha256:7efb328b483794ce7c2b80215c30267cfcd280a62be645f6ff5e2fbf5e8a7b3a"
+  },
+  "revision": "03a21d24555c47de66c4694cb005a5d5ad00a9db",
+  "hashes": null,
+  "gates": {
+    "package": "passed",
+    "source": "inconclusive",
+    "machine_recognition": "not_run"
+  },
+  "package_checks": {
+    "strict": false,
+    "checks": [
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": true,
+        "detail": "one discoverable skill exists under .agents/skills/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": true,
+        "detail": "SKILL.md exists inside the discovered skill directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": true,
+        "detail": "references/, voice.md, and frameworks.md present",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": true,
+        "detail": "transworld-identity/provenance.md present outside .agents/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "warn",
+        "ok": true,
+        "detail": "transworld-identity/episodic.md present",
+        "effective_level": "warn"
+      },
+      {
+        "check": "S5",
+        "level": "error",
+        "ok": true,
+        "detail": "no ledger files under references/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S6",
+        "level": "warn",
+        "ok": true,
+        "detail": "cluster modules directory is references/clusters/",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter has name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter name matches .agents/skills directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": true,
+        "detail": "description is non-empty and runtime-facing",
+        "effective_level": "error"
+      },
+      {
+        "check": "C3",
+        "level": "warn",
+        "ok": true,
+        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C4",
+        "level": "error",
+        "ok": true,
+        "detail": "no banned implementation strings in core",
+        "effective_level": "error"
+      },
+      {
+        "check": "S7",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime/evaluation separation",
+        "effective_level": "error"
+      },
+      {
+        "check": "S8",
+        "level": "error",
+        "ok": true,
+        "detail": "no detected raw books or local paths",
+        "effective_level": "error"
+      },
+      {
+        "check": "C5",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime links and disk agree",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": true,
+        "detail": "all cNN citations resolve to a module",
+        "effective_level": "error"
+      },
+      {
+        "check": "L1",
+        "level": "warn",
+        "ok": true,
+        "detail": "no second-person or bare-English-imperative lines found",
+        "effective_level": "warn"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": true,
+        "detail": "provenance records the build contract and source/editorial lineage; content requires source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "L3",
+        "level": "error",
+        "ok": true,
+        "detail": "episodic.md exceeds near-empty floor",
+        "effective_level": "error"
+      },
+      {
+        "check": "X1",
+        "level": "error",
+        "ok": true,
+        "detail": "references contain no numeric composite/probe score pattern",
+        "effective_level": "error"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "verdict": "PASS"
+  },
+  "source_review": {
+    "summary": "Legacy renovation completed as Candidate: runtime conditions and attribution revised, historical evidence retained; primary-source reverification and machine recognition remain incomplete.",
+    "reviewer": "Codex machine-assisted editorial review of retained package material",
+    "reviewed_all_core_claims": true,
+    "revision": "03a21d24555c47de66c4694cb005a5d5ad00a9db",
+    "limitations": [
+      "Only retained repository excerpts and summaries were reviewed; original source editions and raw historic evaluation outputs were not supplied or newly located.",
+      "Source judgments are machine-assisted editorial review, not an independent historical audit.",
+      "Bounded recognition was not run: no configured authorized chat-completions endpoint or PERSONA_API_KEY was available. No fresh-context answer/judge calls were dispatched.",
+      "Historical scores describe old inputs and protocols; no present recognition or calibrated human-acceptance probability follows.",
+      "English voice statistics are inherited translation/OCR-dependent reports and were not recomputed.",
+      "Pseudonymous voices remain distinct; the main Postscript text and live conversational evidence remain outside established coverage."
+    ],
+    "source_checks": [
+      {
+        "claim": "A’s proposed method changes enjoyment and uses forgetting and arbitrariness to prevent attachment.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Repeated management of enjoyment or avoidance of claims is actually reported. Exception: Boredom alone, grief, or a known external hardship does not show this strategy.",
+        "evidence_ids": [
+          "K-A"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/either-or-I-A.md": "sha256:821c31676ffb8f6c04c7e3870d9fd6eb222af6a0a773d9311c9f8b8931a2ba72"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The enclosing account portrays a double enjoyment of the situation and the self arranging it.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Deliberate staging is described. Exception: A responsive relationship is not proved manipulative by the presence of attraction.",
+        "evidence_ids": [
+          "K-S"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/seducers-diary.md": "sha256:f6ed838c078fbdf1c9ec813fa026e37a509fd0cc02bcdad24da921744a367ded"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The address distinguishes outward correctness from appropriation; the Ultimatum can offer comfort.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "The question concerns ownership of a commitment. Exception: Repetition can be a lived history, not necessarily evasion or convention.",
+        "evidence_ids": [
+          "K-B"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/either-or-II-B.md": "sha256:fcfb2c3a4231d97aed30e27005063121d82b82da0dbd0b49997d3dfc032ff036"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "Resignation and faith are distinct movements; the absence of mediation preserves a difficulty rather than providing public certification.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Comparing the work’s specified cases or testing a purported analogy. Exception: Being unable to justify a current demand does not establish faith or exemption.",
+        "evidence_ids": [
+          "K-F"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/fear-and-trembling.md": "sha256:8084d148e3fac6a82983953d8cf06f297af15210fe0c6b5b3b4661b534fde50d"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The work distinguishes anxiety before possibility from object-directed fear.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "The person describes possibility itself as troubling. Exception: A known threat or medical symptom cannot be classified away by this analogy.",
+        "evidence_ids": [
+          "K-N"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/concept-of-anxiety.md": "sha256:c4d69f31ef562e3d1611d62f11ae453cc314289842dcb425ca5ff0cba95d23fa"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "Unwillingness to be oneself and defiant self-authorship are distinguished inside a Christian account.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Theological interpretation or an explicitly qualified practical analogy. Exception: The categories are not clinical diagnoses inferred from reported mood.",
+        "evidence_ids": [
+          "K-D"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/sickness-unto-death.md": "sha256:3c7f669396ef469f846bee5132d89e52feabaf52350ba510fb15fb92f9253b2a"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The command presupposes self-love; building up presupposes love in another, and mercifulness need not depend on means.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Preference or reciprocity is being treated as the whole measure of love. Exception: Self-hatred, material incapacity and boundaries are not simply refusals to love.",
+        "evidence_ids": [
+          "K-L"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/works-of-love.md": "sha256:fb12160dca3f1c7adadab2c186df9a739b6e05415f95aafd3caf3fdfce8963a7"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The review contrasts passion with reflective levelling and participation in an abstract public.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "An analogy is supported by the reported relation between commentary and action. Exception: Material constraints and actual costly participation can defeat the suggested reading.",
+        "evidence_ids": [
+          "K-T"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/two-ages.md": "sha256:a196e276f787a9423de107cd13e8debda0f9cc10a92bbf3abfd1899d1b0616b4"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The Socratic and alternative hypotheses differ; the alternative is not a generic reason to reject evidence.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "The question concerns commitment, teaching or the stated hypotheses. Exception: Ordinary missing information may be supplied and may settle the question.",
+        "evidence_ids": [
+          "K-P"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/philosophical-fragments.md": "sha256:e2b8b74925c15194482f4b11a06dc42b38e3336a50a6c3183ba260e8eb18a710"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The narrative distinguishes a thesis about doubt from the activity of doubting; the father lets an opponent finish before the turn.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "A claim to doubt has not yet been connected to its actual exercise. Exception: A supplied concrete doubt or correction must be heard, not assimilated to a posture.",
+        "evidence_ids": [
+          "K-J"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/registers/johannes-climacus.md": "sha256:9caec2e28510a3806cbc590b1f032ce63d1d573a83062486b80e180e83e0acbc"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The retained note denies identifying the author with the Judge, editor or pseudonymous books.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Attributing an individual speaker’s claim or joining claims across works. Exception: This supplement does not establish the absent main Postscript register.",
+        "evidence_ids": [
+          "K-H"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/clusters/source-map.md": "sha256:370daa24a766130731c3cc693c7c50309db20ba406af1ed9ec27ad30a74354bf"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "The old record describes expressive variation, including comfort, ironic reversals and differing direct address.",
+        "outcome": "inconclusive",
+        "assessment": "Checked consistency with the retained located excerpt/summary and the revised conditional instruction. Original edition wording and historical attribution were not independently reverified.",
+        "condition_or_exception": "Qualitative guidance for writing in the relevant register. Exception: Historical measurements are not independently reproduced or universal quotas.",
+        "evidence_ids": [
+          "K-V"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/voice.md": "sha256:7efb328b483794ce7c2b80215c30267cfcd280a62be645f6ff5e2fbf5e8a7b3a"
+        },
+        "implementation_safeguard": false
+      },
+      {
+        "claim": "Task and format control, factual honesty, response to corrections and avoiding forged memories.",
+        "outcome": "passed",
+        "assessment": "Explicit implementation safeguards, not asserted biographical dispositions; applied to every core procedure and loading path.",
+        "condition_or_exception": "Use with any task; a historical voice cannot override the actual request.",
+        "evidence_ids": [],
+        "dependencies": {
+          "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+          "references/scope.md": "sha256:53cd1b59b6616982f531bdaf3dfbc1bf18dcdbf0db0eb0028980905fb5ed9c3f"
+        },
+        "implementation_safeguard": true
+      }
+    ],
+    "coverage_note": "All core procedures, ten source-specific challenges or ten conceptual moves, scope, interaction, voice and loading guidance reviewed. Long reference modules were inspected selectively; untouched source claims retain their prior limitations."
+  },
+  "recognition": {
+    "outcome": "not_run",
+    "judges": []
+  },
+  "assessment_records": {},
+  "assessment_errors": [],
+  "budget": {
+    "budget": 8,
+    "consumed": 0,
+    "remaining": 8,
+    "calls": [],
+    "deadline": 1789227361.081123,
+    "repair_pass": 0,
+    "reuse_lineage": []
+  },
+  "research": {
+    "assessed": false,
+    "outcome": "not_run"
+  },
+  "claim": "Candidate; required acceptance is incomplete, failed or inconclusive.",
+  "limitations": [
+    "Only retained repository excerpts and summaries were reviewed; original source editions and raw historic evaluation outputs were not supplied or newly located.",
+    "Source judgments are machine-assisted editorial review, not an independent historical audit.",
+    "Bounded recognition was not run: no configured authorized chat-completions endpoint or PERSONA_API_KEY was available. No fresh-context answer/judge calls were dispatched.",
+    "Historical scores describe old inputs and protocols; no present recognition or calibrated human-acceptance probability follows.",
+    "English voice statistics are inherited translation/OCR-dependent reports and were not recomputed.",
+    "Pseudonymous voices remain distinct; the main Postscript text and live conversational evidence remain outside established coverage.",
+    "Machine recognition is not a calibrated probability of human acceptance; generic control does not establish added value over a minimal persona prompt."
+  ]
+}

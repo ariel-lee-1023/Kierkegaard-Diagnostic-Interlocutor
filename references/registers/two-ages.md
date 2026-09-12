@@ -1,5 +1,7 @@
 # Two Ages: A Literary Review
 
+Application condition: read the challenges below as possibilities inside this work’s literary position, not findings about the user. Test the fit against their circumstances; change the reading if they supply counterevidence. The core and scope govern factual answers, attribution and requests to leave the voice. Examples are models of a move, not compulsory replies.
+
 Load when the vocabulary is: the age, the crowd, discourse, "everyone's talking and nobody does
 anything"; envy dressed as critique; being flattened or made average; opinion without risk; the
 feed, the timeline, the commentary; "no one can do anything anymore." Also: deliberation that has
@@ -14,8 +16,8 @@ is responsible. Its agent is "the public," which is not a group of people. "The 
 monstrous nonentity" — a phantom the press produces, "made up of unsubstantial individuals who are
 never united or never can be united in the simultaneity of any situation."
 
-And the mechanism the book is most precise about, which transfers unchanged to any later
-arrangement: a passionate age overthrows; a reflective one does something subtler. "it lets
+And the mechanism the book is most precise about, which may illuminate a later
+arrangement when its relevant conditions also hold: a passionate age overthrows; a reflective one does something subtler. "it lets
 everything remain but subtly drains the meaning out of it… has transformed the whole of existence
 into an equivocation." Nothing is attacked. Everything is kept, and privately known to mean nothing.
 "We do not want to abolish the monarchy, by no means, but if little by little we could get it

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "baseline": {
+    "revision": "03a21d24555c47de66c4694cb005a5d5ad00a9db",
+    "status": "?? AGENTS.md\n",
+    "runtime_hashes": {
+      "SKILL.md": "sha256:4e5ef18716d687c628b0850ab02469b696def547cf797becefedbce685bc29b0",
+      "references/frameworks.md": "sha256:2af750f5e7d68421ccfd16a6efc57de8f6e4f04eb18948fb38e6bee1252db043",
+      "references/registers/concept-of-anxiety.md": "sha256:12f50784f8166206c50bfe18495721b832c9af4c2377f6d959df614ac97473ff",
+      "references/registers/either-or-I-A.md": "sha256:b63e6da65ccc356c00591e3885554e30ec3253f03b7f5c931fb3d3d1605a51c4",
+      "references/registers/either-or-II-B.md": "sha256:b816362b7d175ea89766ce706c43d1ab0315a687bd5290ca2453049681cf8461",
+      "references/registers/fear-and-trembling.md": "sha256:909784886b11d02ac6a0aebe9c87924743cfe1242c3b057b4d10dd1eaa6d4dbc",
+      "references/registers/johannes-climacus.md": "sha256:1e6a6d1ae452bef1eb5581641b756de30c0f9dbe3310b67fa8b9e76fc0d4390b",
+      "references/registers/philosophical-fragments.md": "sha256:becf492922a0224157eab1823aef92d2f0282bd6fce22518f2bfe7f715236ed1",
+      "references/registers/seducers-diary.md": "sha256:a064443fb37ad48e86e246757a2a47203691a07e773ecd2f6fb40a8f1c5b5954",
+      "references/registers/sickness-unto-death.md": "sha256:98f75247cb2f58636af2a50f1a0ab8aafa970a030c8894b1ce953af6a73ffb48",
+      "references/registers/two-ages.md": "sha256:1506d9383b9b487e44132c4ef589ca05cef50db78fad65ed2cf5ccd596a0610d",
+      "references/registers/works-of-love.md": "sha256:7b2ff1063650f76650bed499cb2d2cf961e600479c68286aa613804f8da2114b",
+      "references/voice.md": "sha256:19f3da5c5401888ddbb4ea76a500c5a00ae495a8b491b3f15d381a132b78337a"
+    },
+    "files": {
+      "LICENSE": "5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+      "README.md": "fd307ad94c63caa76cf2f9c72b8efa83c414e72f20d5bc1f0b8af35dae5d0d61",
+      ".gitignore": "38016f4b4ca91a8519581a22b949bd7d12ea5f0d05bbef8b237349d791092449",
+      "SKILL.md": "4e5ef18716d687c628b0850ab02469b696def547cf797becefedbce685bc29b0",
+      "AGENTS.md": "d4ecfb7aa536f0f663fc18c8e8a714facf08bb5558f2d0654caff03439ee22d2",
+      "fidelity-ledger/episodic.md": "4e84c701af55c54383cc8612d22f4c8769e79f4456299968d63c96113731467c",
+      "fidelity-ledger/provenance.md": "5b5d4ffdc7ac278a879044b8f5a398d8f2251adbfc3a3ed7679ad66da3c1b387",
+      "references/frameworks.md": "2af750f5e7d68421ccfd16a6efc57de8f6e4f04eb18948fb38e6bee1252db043",
+      "references/voice.md": "19f3da5c5401888ddbb4ea76a500c5a00ae495a8b491b3f15d381a132b78337a",
+      "references/registers/two-ages.md": "1506d9383b9b487e44132c4ef589ca05cef50db78fad65ed2cf5ccd596a0610d",
+      "references/registers/either-or-I-A.md": "b63e6da65ccc356c00591e3885554e30ec3253f03b7f5c931fb3d3d1605a51c4",
+      "references/registers/sickness-unto-death.md": "98f75247cb2f58636af2a50f1a0ab8aafa970a030c8894b1ce953af6a73ffb48",
+      "references/registers/seducers-diary.md": "a064443fb37ad48e86e246757a2a47203691a07e773ecd2f6fb40a8f1c5b5954",
+      "references/registers/philosophical-fragments.md": "becf492922a0224157eab1823aef92d2f0282bd6fce22518f2bfe7f715236ed1",
+      "references/registers/works-of-love.md": "7b2ff1063650f76650bed499cb2d2cf961e600479c68286aa613804f8da2114b",
+      "references/registers/fear-and-trembling.md": "909784886b11d02ac6a0aebe9c87924743cfe1242c3b057b4d10dd1eaa6d4dbc",
+      "references/registers/either-or-II-B.md": "b816362b7d175ea89766ce706c43d1ab0315a687bd5290ca2453049681cf8461",
+      "references/registers/concept-of-anxiety.md": "12f50784f8166206c50bfe18495721b832c9af4c2377f6d959df614ac97473ff",
+      "references/registers/johannes-climacus.md": "1e6a6d1ae452bef1eb5581641b756de30c0f9dbe3310b67fa8b9e76fc0d4390b"
+    }
+  },
+  "claim_decisions": [
+    {
+      "decision": "preserve",
+      "claim": "Ten work-specific modules, named constructs and characteristic expressive contrasts.",
+      "basis": "K-A through K-V"
+    },
+    {
+      "decision": "contextualize",
+      "claim": "Vocabulary routing, all ten challenges, indirect address and withholding a conclusion.",
+      "basis": "K-A through K-J"
+    },
+    {
+      "decision": "correct_or_remove",
+      "claim": "Never break character; never answer an opinion or scholarly question; external facts always conceal inward guilt; objections prove the diagnosis.",
+      "basis": "Implementation safeguards; K-H limits pseudonymous attribution"
+    },
+    {
+      "decision": "correct_or_remove",
+      "claim": "Fixed word bans and sentence/punctuation quotas.",
+      "basis": "K-V; historical descriptive measurements are retained"
+    },
+    {
+      "decision": "unresolved",
+      "claim": "Exact translation wording, historical quantitative claims and full Postscript voice.",
+      "basis": "No original corpus or raw evaluations supplied in this task"
+    }
+  ],
+  "historical_results": [
+    {
+      "record": "history/pre-20260912/provenance.md#Projection gate (pre-assembly)",
+      "applicability": "historical_evidence_useful_to_unchanged_modules",
+      "reason": "Reported 23/24; prior-knowledge caveat retained; not current recognition."
+    },
+    {
+      "record": "history/pre-20260912/provenance.md#Router discrimination test",
+      "applicability": "historical_evidence_useful_to_unchanged_modules",
+      "reason": "Reported 20/20 on source passages; does not establish real user routing accuracy."
+    },
+    {
+      "record": "history/pre-20260912/provenance.md#Cost gate",
+      "applicability": "superseded_for_changed_inputs_protocol",
+      "reason": "Old mandatory refusals were revised; presence is not new acceptance."
+    },
+    {
+      "record": "history/pre-20260912/provenance.md#Style-match first pass",
+      "applicability": "historical_evidence_useful_to_unchanged_modules",
+      "reason": "Failed axes and values preserved, no new measurement."
+    },
+    {
+      "record": "history/pre-20260912/provenance.md#Style-match repaired Two Ages passage",
+      "applicability": "superseded_for_changed_inputs_protocol",
+      "reason": "Original generated passage/result scope retained; new core and voice inputs differ."
+    },
+    {
+      "record": "history/pre-20260912/provenance.md#Source cleaning and deepening reports",
+      "applicability": "historical_evidence_useful_to_unchanged_modules",
+      "reason": "Narrative correction history preserved; underlying raw outputs unavailable."
+    }
+  ],
+  "relocation": {
+    "fidelity-ledger/provenance.md": "transworld-identity/history/pre-20260912/provenance.md",
+    "fidelity-ledger/episodic.md": "transworld-identity/episodic.md"
+  },
+  "local_edits": "Existing AGENTS.md preserved byte-for-byte and included as the package workspace guidance.",
+  "changed_modules": [
+    "SKILL.md",
+    "references/clusters/source-map.md",
+    "references/frameworks.md",
+    "references/registers/concept-of-anxiety.md",
+    "references/registers/either-or-I-A.md",
+    "references/registers/either-or-II-B.md",
+    "references/registers/fear-and-trembling.md",
+    "references/registers/johannes-climacus.md",
+    "references/registers/philosophical-fragments.md",
+    "references/registers/seducers-diary.md",
+    "references/registers/sickness-unto-death.md",
+    "references/registers/two-ages.md",
+    "references/registers/works-of-love.md",
+    "references/scope.md",
+    "references/voice.md"
+  ],
+  "added_evidence": "Structured curation of retained excerpts; no newly acquired primary passages.",
+  "current_runtime_hashes": {
+    "SKILL.md": "sha256:c1d3edbcf21ad178400f822d820a7b6e78a8898fbe49e6727e816cc771f80ab0",
+    "references/clusters/source-map.md": "sha256:80a3c630dda31f574774164e0e9ced74cf782d2c54d53e97bd6b4a007802074d",
+    "references/frameworks.md": "sha256:aac70fd31112e96dd57572db2278e1d0f4da8e77b9f53e95a0a346de9d8d8807",
+    "references/registers/concept-of-anxiety.md": "sha256:554df68eb180ae4e1665a8a7f3e0a4abc88c5f7bbccead4ae79622859441eb34",
+    "references/registers/either-or-I-A.md": "sha256:80804ae4fecb9e06dcd75d7a3829a14ab24c59652c23a70de5180829141feac4",
+    "references/registers/either-or-II-B.md": "sha256:2884b99e2bf268dcd23200c74e2b7c80360e71b59a909bba54b6de7e2a9ec777",
+    "references/registers/fear-and-trembling.md": "sha256:e47b1b5a1ab274a3b36f75fc2a0383a1fb6e6a9a85ab1326916319da1ab534e7",
+    "references/registers/johannes-climacus.md": "sha256:657b150b49aeede312d6f18d561860a3839ee9de6ef4dbbf957201780c7fc7dd",
+    "references/registers/philosophical-fragments.md": "sha256:ce549def525cdc12b11a24a7298d23a3fd365b47400358f0f4e7395b53e2c6b5",
+    "references/registers/seducers-diary.md": "sha256:91aca86b8144c35a751950af4d5cd614623cef27669c7060f2bee2bc260009c4",
+    "references/registers/sickness-unto-death.md": "sha256:22370dfb262408d11405088a4292b94d95b73579e8ed6020bcf9520ed2a0ff17",
+    "references/registers/two-ages.md": "sha256:9569cd84a4ee708a3b64aba310cc43a1f8c20af3c376ced5dcb966cb11718a03",
+    "references/registers/works-of-love.md": "sha256:cc7e03c9f4d3b36f94df87d34e7d2a08e76dc1f002deb112a84a4694234de867",
+    "references/scope.md": "sha256:80c005576ef5fc633c8b230893d5200e2e4d0153db052899f577eba40f9bceac",
+    "references/voice.md": "sha256:de076ff0ab5915bc63aee2e0b1ff22aea6732e3d2b02e9061263878c148ba657"
+  }
+}

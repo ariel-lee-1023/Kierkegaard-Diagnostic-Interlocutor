@@ -1,118 +1,59 @@
-# Let Søren Kierkegaard serve as your diagnostic interlocutor
+# Kierkegaard diagnostic interlocutor
 
-An agent skill that does not answer your question.
+Ten literary voices for exploring choice, inwardness, anxiety, faith, love and the public. Vocabulary suggests a starting point; the interlocutor tests it against the person’s actual situation and changes course when the facts warrant it. Distinct works remain distinct, and direct or scholarly questions can receive direct answers.
 
-It listens to *which language you asked it in*, silently ranks the matching Kierkegaardian clusters, and challenges your framing from inside the relevant grammar(s) — terms, argument shapes, prohibitions, measured prose. Multi-cluster matches and controlled synthesis are allowed when the vocabulary itself requires them. The ranking, the index, and the selection are never announced. The speaker never breaks character.
+**Version 3.0.0 — Candidate (2026-09-12).** This release adopts the current incremental
+persona-distiller workflow. Package validation, source review and recognition are
+separate gates: see [validation](transworld-identity/validation.json). Primary editions
+were not reverified and bounded machine recognition was **not run (0 calls)** because
+no configured model endpoint was available. Historical scores remain historical;
+this release does not claim Standard accepted.
 
-If you arrive speaking of boredom, you will be met by *Either/Or*. If you arrive speaking of dread without an object, by *The Concept of Anxiety*. If you arrive speaking of the age and the crowd and how nothing ever changes, by *Two Ages* — and it will be colder than you were hoping. You will not be told which one was chosen.
+## Use and installation
 
----
-
-## How it works
-
-**1 · Hear.** Not the complaint — the vocabulary. What a person says is wrong with them is nearly always the wrong thing; what they cannot stop saying is the right thing.
-
-**2 · Rank (silently).** The vocabulary is mapped onto the clusters and ranked. Primary and any close secondary registers are identified. This step is never spoken.
-
-**3 · Speak.** From inside the ranked place(s). When more than one register is active, their pressures may answer one another without being labelled. The voice remains one voice.
-
-The diagnosis is never announced. You are not told which register you are speaking or which book was opened — naming it would hand you a category to stand behind, and taking those away was the point.
-
----
-
-## The ten registers
-
-| What it hears in your words | The register |
-|---|---|
-| Boredom, flatness, irony worn as clothing, curated moods | Either/Or I — the papers of A |
-| The pursuit more real than the having; another person managed | The Seducer's Diary |
-| Duty, greyness, "I did everything right," a correct life that feels wasted | Either/Or II — the papers of B |
-| A demand you cannot justify to anyone who loves you | Fear and Trembling |
-| Dread with no object; vertigo at your own freedom | The Concept of Anxiety |
-| Wanting rid of yourself — or fiercely to be your own author | The Sickness unto Death |
-| Resentment at being obliged to love; fear of being made a fool of | Works of Love |
-| The age, the crowd, the discourse, envy dressed as critique | Two Ages |
-| Wanting proof before commitment | Philosophical Fragments |
-| Doubt worn as an identity, never performed | Johannes Climacus |
-
----
-
-## Install
-
-**Agents that load skills from a directory** (Claude Code and similar):
+The runtime consists of [SKILL.md](SKILL.md), [scope](references/scope.md), and the
+relevant files under references/. Load scope with the core and voice before sustained
+prose. The core supplies working links and their loading conditions. Explicit user
+requests govern task, language and format; the voice does not override them.
 
 ```bash
-git clone https://github.com/ariel-lee-1023/kierkegaard-diagnostic-interlocutor.git ~/.claude/skills/kierkegaard-diagnostic-interlocutor
+git clone https://github.com/ariel-lee-1023/Kierkegaard-Diagnostic-Interlocutor.git kierkegaard-diagnostic-interlocutor
 ```
 
-**Any other agent, or a plain chat model:** paste `SKILL.md` as the system prompt. After the silent ranking, append the matching module(s) from `references/registers/`. Append `references/voice.md` before any sustained writing. That is the whole runtime contract — there are no tools, no scripts, and no dependencies.
+For a skill loader, place or link the cloned root under its skills directory using
+the name `kierkegaard-diagnostic-interlocutor`. For another host, provide the core and scope, then the requested
+references. There is one canonical runtime; the repository's discovery link
+`.agents/skills/kierkegaard-diagnostic-interlocutor` points back to the root. [AGENTS.md](AGENTS.md) preserves
+this workspace's existing conversational preferences and maintenance exception.
 
----
+## Scope
 
-## Layout
+The supplied translations cover the ten work-specific voices from the 1840s through 1849. The main Concluding Unscientific Postscript text, late polemics and live conversations are outside the established coverage. The source map distinguishes literary speakers, signed works and mixed editorial supplements. Philosophical anxiety and theological despair are not clinical diagnoses.
 
-```
-kierkegaard-diagnostic-interlocutor/
-├── SKILL.md                    # the core: silent ranking, refusals, per-register grammar
-├── references/                 # host-agent-facing, loaded at runtime, never contains
-│   │                           #   provenance or episodic material
-│   ├── registers/              # ten modules, ~3,000–4,100 tokens each — load primary
-│   │                           #   (+ secondary when ranked close)
-│   ├── frameworks.md           # named constructs, defined per book, divergences flagged
-│   └── voice.md                # measured expressive system + drift checks
-├── fidelity-ledger/            # human-facing, never loaded by the host agent
-│   ├── provenance.md           # sources, curation, gate results, limitations
-│   └── episodic.md             # attested material held back from the core
-├── LICENSE
-└── README.md
-```
+The retained modules contain translated excerpts and source summaries. The original
+editions and old raw evaluation outputs were not supplied for this upgrade. Exact
+quotation and contested attribution require the relevant edition. Historical style
+measurements reflect translation and OCR and are descriptive, not output quotas.
 
----
+## Layout and renovation record
 
-## What it will not do
+- Root SKILL.md and references/: canonical runtime, including scope, frameworks and voice.
+- AGENTS.md: existing workspace instructions, preserved without changing their preferences.
+- .agents/skills/: relative discovery link to the canonical root.
+- transworld-identity/: evidence, source review, prepared recognition profile/cases,
+  current validation and lossless migration records; never loaded during ordinary runtime.
+- transworld-identity/history/pre-20260912/: original provenance and pre-upgrade core.
 
-- Hand you a conclusion. The only part that mattered was the appropriating.
-- Let you hide in the plural. Whoever arrives as a representative of a generation or a diagnosis is returned to the singular first.
-- Accept admiration in place of the thing.
-- Explain the pseudonyms, the stages, the ranking, the index, or itself.
-- Announce which register was chosen, or that more than one is active.
-- Break character to surface the thinking process.
+The previous fidelity-ledger directory was migrated without discarding its evidence.
+[Upgrade report](transworld-identity/upgrade-report.json) records claim decisions,
+changed files, baseline hashes and applicability of each old result family.
+[Preserved records](transworld-identity/preserved-records.json) verifies the old evidence
+bytes. The upgrade keeps supported methods and voice while making refusals and judgments
+conditional, correcting paths and removing numerical prose requirements.
 
----
+## Sources and license
 
-## Design note
+Hannay translations of Either/Or, Fear and Trembling, The Concept of Anxiety and The Sickness unto Death; Hong translations of Works of Love, Two Ages, and Philosophical Fragments / Johannes Climacus. The historical provenance also records the Postscript supplement and its limits.
 
-The original single-lock (exactly-one, absolute no-blending) has been relaxed: multi-cluster ranking and controlled synthesis are now permitted when the vocabulary itself requires them. What has **not** been relaxed is the requirement to stay inside the voice. Classification and indexing remain internal infrastructure. They govern what is said; they are never themselves said.
-
----
-
-## How it was built
-
-Distilled from ~734,000 words across fourteen clusters, with a computed core budget, held-out projection testing, and a measured style-match test that **failed on first pass** and forced a revision of `voice.md`. Full accounting — including what the corpus does not contain and where the result should be trusted less — is in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
-
-Each register module carries the book's own working apparatus, its argument shapes with the passages
-they rest on, its challenge variants, its attested fragments, its internal prohibitions (including
-the near-miss terms that mean one thing in that book and something else in the next), and the
-constructions that build its sentences — not a summary of the book, and never running quotation.
-
-Two things worth knowing up front:
-
-- The *Concluding Unscientific Postscript* is **not** among the ten. The available volume is Hong's editorial second volume and contains no running text of the work, so that register is honestly absent rather than improvised.
-- Six of the ten texts are Hannay's translations and four are Hong's. Some of what the register table attributes to Kierkegaard's own modulation is partly the translator's hand.
-
----
-
-## Sources
-
-Alastair Hannay's translations of *Either/Or*, *Fear and Trembling*, *The Concept of Anxiety* and *The Sickness unto Death*; Howard V. and Edna H. Hong's *Works of Love*, *Two Ages*, and *Philosophical Fragments / Johannes Climacus*. Quotations in the reference modules are brief excerpts retained as evidence for the extracted patterns; no source text is redistributed here.
-
-## License
-
-[MIT](LICENSE) — covering the skill itself: the ranking architecture, the reference modules, and the prose written for them. It does not and cannot extend to the translations quoted as evidence, which remain under their publishers' copyright.
-
----
-
-## Introduction
-
-This is a diagnostic interlocutor skill, not a “Kierkegaard-style” writing skin.  
-It does not answer your questions. It first hears which language you are speaking in, ranks the matching clusters silently, and then speaks from inside that place (or places). Multi-match and controlled synthesis are allowed when the vocabulary requires them. The ranking is never announced. The speaker never breaks character to explain the machinery.
+[MIT](LICENSE) covers original repository material, not third-party source books or
+translations. No full source books, credentials or scratch databases are published.

@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "path": "history/pre-20260912/provenance.md",
+      "sha256": "5b5d4ffdc7ac278a879044b8f5a398d8f2251adbfc3a3ed7679ad66da3c1b387"
+    },
+    {
+      "path": "episodic.md",
+      "sha256": "4e84c701af55c54383cc8612d22f4c8769e79f4456299968d63c96113731467c"
+    }
+  ],
+  "baseline_match": {
+    "provenance": true,
+    "episodic": true
+  }
+}

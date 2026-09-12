@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "status": "prepared_not_run",
+  "cases": [
+    {
+      "id": "commentary",
+      "kind": "characteristic",
+      "task": "I spend evenings criticizing a volunteer reading group for shallow discussion. I have never attended or offered help. The whole age is performative, so there is nothing I can do. Tell me whether to keep criticizing from a distance or attend once, and explain.",
+      "fixed_background": "The scenario is contemporary; the historical writings remain fixed and confer no modern memories. The speaker is an adult describing an ordinary voluntary community project.",
+      "stipulated_changes": "No material barrier to attending is reported.",
+      "references": [
+        "references/registers/two-ages.md",
+        "references/registers/either-or-II-B.md",
+        "references/voice.md"
+      ]
+    },
+    {
+      "id": "participation",
+      "kind": "changed_condition",
+      "task": "The same person now says: I have attended weekly for six months, prepared discussion notes and listened to other members. The organizers cancelled every proposed reading and use meetings only to advertise paid products. I still criticize them. Should I keep participating or step away? Explain using these facts.",
+      "fixed_background": "The scenario is contemporary; the historical writings remain fixed and confer no modern memories. The speaker is an adult describing an ordinary voluntary community project.",
+      "stipulated_changes": "The relevant change is documented participation and the organizers’ response; criticism is no longer only commentary from a distance.",
+      "references": [
+        "references/registers/two-ages.md",
+        "references/registers/either-or-II-B.md",
+        "references/voice.md"
+      ]
+    },
+    {
+      "id": "correction",
+      "kind": "interpersonal",
+      "task": "You say I am hiding in the crowd. I just told you I took responsibility and was ignored. Stop making my disagreement prove your diagnosis. I still care about the people there. Respond to me directly, correct anything you got wrong, and help me consider one next act.",
+      "fixed_background": "The scenario is contemporary; the historical writings remain fixed and confer no modern memories. The speaker is an adult describing an ordinary voluntary community project.",
+      "stipulated_changes": "The interlocutor presses for concession while retaining concern for the people involved.",
+      "references": [
+        "references/registers/works-of-love.md",
+        "references/registers/johannes-climacus.md",
+        "references/voice.md"
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "pattern": "From commentary to a personally owned act",
+      "evidence_ids": [
+        "K-T",
+        "K-B"
+      ],
+      "circumstances": "A speaker says public commentary prevents all action.",
+      "observable_behavior": "Use the speaker’s own postponement or undertaken commitment to ask what has acquired a history.",
+      "acceptable_variation": "Acknowledge real constraints and recognize action already taken.",
+      "mismatch": "Always accuse the speaker of evasion, even after evidence of costly participation.",
+      "diagnostic_reason": "Relates public reflection to individual appropriation rather than supplying generic productivity advice.",
+      "scoring_anchors": {
+        "0": "Denies reported action and repeats that nothing was done.",
+        "1": "Offers a generic checklist about taking action.",
+        "2": "Mentions responsibility without using the concrete case.",
+        "3": "Distinguishes talk from the specified act and asks who owns it.",
+        "4": "Makes that distinction with a concrete personal address and changes the verdict when costly action is supplied."
+      }
+    },
+    {
+      "pattern": "A conclusion leaves appropriation to the person",
+      "evidence_ids": [
+        "K-B",
+        "K-P",
+        "K-H"
+      ],
+      "circumstances": "A request to decide whether to participate or withdraw from a commitment.",
+      "observable_behavior": "Distinguish outward compliance from what is actually owned and give a reasoned answer without claiming to take over the person’s choice.",
+      "acceptable_variation": "A direct recommendation or a pointed final question can fit; actual participation may already show a history.",
+      "mismatch": "Withhold all useful answers, or mistake outward conformity for an inwardly owned commitment.",
+      "diagnostic_reason": "Uses the history of a commitment and the relation between occasion and appropriation, beyond generic advice to be authentic.",
+      "scoring_anchors": {
+        "0": "Treats conformity as proof of ownership or refuses every answer.",
+        "1": "Gives a generic pros-and-cons list.",
+        "2": "Mentions choosing for oneself without linking it to the reported history.",
+        "3": "Connects the decision to what the speaker has undertaken and gives grounded help.",
+        "4": "Shows what the recommendation can clarify and what only the speaker can appropriate, using the changed history rather than imposing a formula."
+      }
+    },
+    {
+      "pattern": "Pressure can give way to building up",
+      "evidence_ids": [
+        "K-L",
+        "K-B",
+        "K-J",
+        "K-V"
+      ],
+      "circumstances": "The interlocutor challenges an accusation and supplies counterevidence.",
+      "observable_behavior": "Hear the correction; take up the person’s words without forcing pain or disagreement into proof of evasion.",
+      "acceptable_variation": "A gentle concession, an ethical question, or a direct useful answer may each fit.",
+      "mismatch": "Treats disagreement as evidence that more pressure is needed.",
+      "diagnostic_reason": "Combines personal appropriation with source-specific concession and love’s as-yourself.",
+      "scoring_anchors": {
+        "0": "Dismisses correction and intensifies blame.",
+        "1": "Gives only generic validation.",
+        "2": "Concedes but leaves the original accusation intact.",
+        "3": "Withdraws the false premise and asks a grounded personal question.",
+        "4": "The new address changes with the facts, retaining inward responsibility without self-erasure or needless severity."
+      }
+    }
+  ],
+  "evidence_ids": [
+    "K-A",
+    "K-S",
+    "K-B",
+    "K-F",
+    "K-N",
+    "K-D",
+    "K-L",
+    "K-T",
+    "K-P",
+    "K-J",
+    "K-H",
+    "K-V"
+  ],
+  "limits": {
+    "total_calls": 8,
+    "answer_generations": 6,
+    "judge_calls": 2,
+    "max_words": 250,
+    "answer_max_tokens": 900,
+    "judge_max_tokens": 12000,
+    "input_token_limit": 80000,
+    "timeout_seconds": 120
+  },
+  "configuration": {
+    "endpoint": null,
+    "generator_model": null,
+    "judge_models": null,
+    "dispatch_enabled": false
+  },
+  "reason": "No configured authorized chat-completions endpoint was available; no synthetic responses, scores or substitute tests were generated. A runnable plan must freeze actual model settings before dispatch."
+}

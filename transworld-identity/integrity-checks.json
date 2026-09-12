@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "evidence_schema": "passed",
+  "profile_and_case_schema": "passed",
+  "evidence_ids_and_runtime_support": "passed",
+  "runtime_assessment_separation": "passed",
+  "design_hashes": "passed",
+  "historical_bytes": "passed",
+  "preexisting_core_snapshot": "passed",
+  "existing_agents_and_license_unchanged": "passed",
+  "actual_source_documents_inspected": 16,
+  "inspection_note": "Selective excerpts within some long modules; not a full primary-source reread.",
+  "source_boundary_documents": 20,
+  "ocr_pages": 0,
+  "new_source_documents": 0,
+  "new_named_constructs": 0,
+  "literal_corpus_name_audit": "not_run_original_corpus_unavailable",
+  "style_remeasurement": "not_run_original_corpus_unavailable",
+  "evaluation_calls": 0
+}

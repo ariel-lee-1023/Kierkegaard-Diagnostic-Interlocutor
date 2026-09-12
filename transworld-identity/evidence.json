@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "K-A",
+      "source": "Either/Or I (Hannay), papers of A",
+      "locator": "Crop Rotation; retained module: The apparatus this book thinks with",
+      "attribution": "A, an aesthetic literary voice",
+      "group_id": "Either/Or I (Hannay), papers of A",
+      "situation": "Rotating enjoyment while avoiding binding relations",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "A’s proposed method changes enjoyment and uses forgetting and arbitrariness to prevent attachment.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Repeated management of enjoyment or avoidance of claims is actually reported."
+      ],
+      "exceptions": [
+        "Boredom alone, grief, or a known external hardship does not show this strategy."
+      ],
+      "conflicts": [
+        "K-B",
+        "K-L"
+      ],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/either-or-I-A.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-S",
+      "source": "Either/Or I (Hannay), The Seducer’s Diary",
+      "locator": "Retained module: The frame, which is half the register",
+      "attribution": "Johannes in the diary, distinguished from A’s framing account",
+      "group_id": "Either/Or I (Hannay), The Seducer’s Diary",
+      "situation": "The staging and recollection of another person’s responses",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The enclosing account portrays a double enjoyment of the situation and the self arranging it.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Deliberate staging is described."
+      ],
+      "exceptions": [
+        "A responsive relationship is not proved manipulative by the presence of attraction."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/seducers-diary.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-B",
+      "source": "Either/Or II (Hannay)",
+      "locator": "The Aesthetic Validity of Marriage; Ultimatum; retained module apparatus",
+      "attribution": "B/the Judge; the Ultimatum is a distinct address",
+      "group_id": "Either/Or II (Hannay)",
+      "situation": "Ethical choice and the history of a committed life",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The address distinguishes outward correctness from appropriation; the Ultimatum can offer comfort.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "The question concerns ownership of a commitment."
+      ],
+      "exceptions": [
+        "Repetition can be a lived history, not necessarily evasion or convention."
+      ],
+      "conflicts": [
+        "K-A"
+      ],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/either-or-II-B.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-F",
+      "source": "Fear and Trembling (Hannay)",
+      "locator": "Retained module: two movements; Problema III; Abraham and the tragic hero",
+      "attribution": "The work’s literary narrator, not the contemporary user or a direct authorial confession",
+      "group_id": "Fear and Trembling (Hannay)",
+      "situation": "The inability to mediate Abraham’s case through the ethical universal",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "Resignation and faith are distinct movements; the absence of mediation preserves a difficulty rather than providing public certification.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Comparing the work’s specified cases or testing a purported analogy."
+      ],
+      "exceptions": [
+        "Being unable to justify a current demand does not establish faith or exemption."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/fear-and-trembling.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-N",
+      "source": "The Concept of Anxiety (Hannay)",
+      "locator": "Retained apparatus: anxiety, the leap, educated by possibility; chapter V as located in the old record",
+      "attribution": "The work’s philosophical-psychological exposition",
+      "group_id": "The Concept of Anxiety (Hannay)",
+      "situation": "Possibility both attracts and repels within the analysis of freedom",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The work distinguishes anxiety before possibility from object-directed fear.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "The person describes possibility itself as troubling."
+      ],
+      "exceptions": [
+        "A known threat or medical symptom cannot be classified away by this analogy."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/concept-of-anxiety.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-D",
+      "source": "The Sickness unto Death (Hannay)",
+      "locator": "Retained apparatus: derivation, cure formula, forms of despair; Part Two B in old review",
+      "attribution": "Anti-Climacus’s theological exposition",
+      "group_id": "The Sickness unto Death (Hannay)",
+      "situation": "The self’s relation to itself and to the power establishing it",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "Unwillingness to be oneself and defiant self-authorship are distinguished inside a Christian account.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Theological interpretation or an explicitly qualified practical analogy."
+      ],
+      "exceptions": [
+        "The categories are not clinical diagnoses inferred from reported mood."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/sickness-unto-death.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-L",
+      "source": "Works of Love (Hong)",
+      "locator": "Retained apparatus: as yourself, to build up, mercifulness; Love Believes All Things",
+      "attribution": "Signed Christian deliberation; translated wording",
+      "group_id": "Works of Love (Hong)",
+      "situation": "Neighbor-love, preference and the temptation to measure what is owed",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The command presupposes self-love; building up presupposes love in another, and mercifulness need not depend on means.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Preference or reciprocity is being treated as the whole measure of love."
+      ],
+      "exceptions": [
+        "Self-hatred, material incapacity and boundaries are not simply refusals to love."
+      ],
+      "conflicts": [
+        "K-A"
+      ],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/works-of-love.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-T",
+      "source": "Two Ages (Hong)",
+      "locator": "The Present Age; retained apparatus: reflection as a prison, levelling, the public",
+      "attribution": "Literary review’s diagnosis of its age",
+      "group_id": "Two Ages (Hong)",
+      "situation": "Reflection, public commentary and delayed accountable action",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The review contrasts passion with reflective levelling and participation in an abstract public.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "An analogy is supported by the reported relation between commentary and action."
+      ],
+      "exceptions": [
+        "Material constraints and actual costly participation can defeat the suggested reading."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/two-ages.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-P",
+      "source": "Philosophical Fragments (Hong)",
+      "locator": "Retained apparatus: Meno, Socrates as midwife, condition; Interlude and Appendix on offence",
+      "attribution": "Hypothetical literary inquiry; author/editor distinctions retained",
+      "group_id": "Philosophical Fragments (Hong)",
+      "situation": "Whether a teacher is only an occasion or also supplies the condition for learning",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The Socratic and alternative hypotheses differ; the alternative is not a generic reason to reject evidence.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "The question concerns commitment, teaching or the stated hypotheses."
+      ],
+      "exceptions": [
+        "Ordinary missing information may be supplied and may settle the question."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/philosophical-fragments.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-J",
+      "source": "Johannes Climacus / De omnibus dubitandum est (Hong)",
+      "locator": "Retained module: three theses; father’s dialectic and the shark",
+      "attribution": "Narrative about the young Johannes and reported dialogue within it",
+      "group_id": "Johannes Climacus / De omnibus dubitandum est (Hong)",
+      "situation": "A young thinker attempts what inherited claims about doubt demand",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The narrative distinguishes a thesis about doubt from the activity of doubting; the father lets an opponent finish before the turn.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "A claim to doubt has not yet been connected to its actual exercise."
+      ],
+      "exceptions": [
+        "A supplied concrete doubt or correction must be heard, not assimilated to a posture."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/registers/johannes-climacus.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-H",
+      "source": "Postscript second-volume supplement (Hong)",
+      "locator": "Retained episodic entry: On not owning the books; margin note beside closing-declaration drafts",
+      "attribution": "Draft authorial disavowal reported in a mixed editorial supplement",
+      "group_id": "Postscript second-volume supplement (Hong)",
+      "situation": "Distinguishing authorship from the positions of pseudonymous speakers",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The retained note denies identifying the author with the Judge, editor or pseudonymous books.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Attributing an individual speaker’s claim or joining claims across works."
+      ],
+      "exceptions": [
+        "This supplement does not establish the absent main Postscript register."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/source-map.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    },
+    {
+      "id": "K-V",
+      "source": "Retained translated literary passages and historical style report",
+      "locator": "voice module: concession, concrete case, question descent; historical provenance Style-match test",
+      "attribution": "Translator-mediated prose and earlier builder’s measurements, distinguished",
+      "group_id": "Retained translated literary passages and historical style report",
+      "situation": "Written address ranges from lyric to homiletic, hypothetical and taxonomic",
+      "audience": "The work’s written or imagined reader; contemporary users only by editorial extension.",
+      "available_information": "Retained repository excerpts and source summaries; no newly inspected full source edition.",
+      "constraints": "Translation, literary framing and incomplete original-text access limit attribution.",
+      "observation": "The old record describes expressive variation, including comfort, ironic reversals and differing direct address.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Qualitative guidance for writing in the relevant register."
+      ],
+      "exceptions": [
+        "Historical measurements are not independently reproduced or universal quotas."
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Preserve the supported move while limiting automatic application; primary wording remains unverified in this upgrade."
+      },
+      "review_status": "retained_material_reviewed; primary_reverification_unavailable"
+    }
+  ]
+}

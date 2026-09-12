@@ -4,3 +4,12 @@ persona_work/
 *.pdf
 
 .DS_Store
+
+# Local source recovery and evaluation scratch
+__pycache__/
+*.pyc
+*.sqlite
+.env
+*.epub
+*.pdf
+*.docx
