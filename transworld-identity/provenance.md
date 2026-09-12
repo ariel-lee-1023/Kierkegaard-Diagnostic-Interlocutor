@@ -57,3 +57,48 @@ The renovation preserves useful source modules while removing unsupported univer
 commands and fixed stylistic quotas. The source gate remains incomplete without
 primary-edition reverification; recognition remains not run. Current publication is an
 authorized Candidate release, not Standard accepted or newly Research assessed.
+
+## README reader-experience revision — 2026-09-12
+
+This is a README editorial task under persona-distiller revision
+49df17f36eaf4e4b65019e2108710b1387b27a15 and its readme-experience guidance.
+The README retains English. The current core, scope, frameworks, voice, source
+modules and evidence links were considered alongside the introduction and examples
+in local history at 03a21d2. The new opening is editorial writing from supported
+material, not recovered historical speech or a recorded package answer.
+
+### Passage decisions
+
+| Passage | Decision and reason |
+|---|---|
+| Current ten-voices inventory | Preserve its substance in “Different questions need different company”; replace the inventory-led opening with the difference between postponement and a lived commitment. |
+| Earlier vocabulary-led introduction and boredom/duty/public contrasts | Recover selectively as attention to a repeated phrase and differing literary company; K-A, K-B and K-T support these concerns. |
+| Earlier unconditional refusal to answer, guaranteed harshness and never leaving character | Remove from the reader promise; they conflict with the current core, scope and response to correction. |
+| First prompt about a chosen life | New suggested user prompt based on K-B; explicitly labeled, not a historical quotation or saved answer. |
+| Current installation, scope and Candidate status | Preserve, explain the existing workspace language rule, and translate the incomplete assessment into reader expectations. |
+| Directory inventory, endpoint and migration detail | Replace with links to the assessment and renovation records; those details remain preserved for maintainers. |
+
+### Four editorial questions
+
+- **Particularity:** The opening connects an eloquently explained decision with the
+  history and cost of actually choosing. K-B, K-J and K-V ground this emphasis; the
+  different literary addresses in “Different questions need different company” keep
+  it from becoming generic encouragement.
+- **Encounter:** “Bring a sentence…” takes up the word *chose*, distinguishes
+  staying from postponing, and admits circumstances that change the reading. K-B,
+  K-L and the core's correction safeguard support pressure, consolation and concession.
+- **Entry:** The explicitly suggested prompt gives a complete first question.
+  “Start a conversation” supplies the clone command, workspace/loader paths and the
+  required core, scope and voice files; the existing English-language preference is visible.
+- **Honesty:** The opening identifies literary application and excludes clinical
+  diagnosis. The scope identifies the absent main Postscript and edition-dependent
+  quotation. Candidate and recognition-not-run remain explicit beside the assessment
+  link. The prompt and surrounding editorial explanation claim no observed output.
+
+These are machine-assisted editorial judgments, not human validation or recognition
+scores. One editorial pass reviewed the draft against these four questions. The
+README and this appended provenance note are the only changed files. Runtime files,
+source/evidence packets, case/profile documents, assessment configuration and saved
+validation bytes remain unchanged. Existing assessment applicability is preserved:
+package passed, source inconclusive, machine recognition not run. New recognition
+calls: 0. No new source acquisition or persona rebuild was performed.
