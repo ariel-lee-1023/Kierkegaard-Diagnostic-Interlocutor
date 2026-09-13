@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "structure_revision": 2,
+  "date": "2026-09-13",
+  "baseline": {
+    "commit": "2f2dd7f148b9fded982d7e405bd5252e942bf5bb",
+    "branch": "main",
+    "working_tree": "clean"
+  },
+  "tool_revision": "15cf8074761c575e54a49d2dce7046f7ba458f13",
+  "contract": "Update internal structure and push the respective changes; no new extraction or recognition.",
+  "source_boundary": {
+    "material": "Existing scope, core, runtime modules and retained evidence only",
+    "new_sources": 0,
+    "ocr_pages": 0
+  },
+  "evaluation_calls": 0,
+  "changed_modules": [
+    "README.md",
+    "SKILL.md",
+    "AGENTS.md",
+    "references/voice.md",
+    "references/scope.md",
+    "transworld-identity/validation.json"
+  ],
+  "claim_decisions": [
+    {
+      "decision": "preserve",
+      "reason": "Retain all supported persona methods, literary voices, topic modules and historical observations."
+    },
+    {
+      "decision": "contextualize",
+      "reason": "Reconstruction coverage is maintainer data; practical conditions stay with core, methods and voice."
+    },
+    {
+      "decision": "correct/remove",
+      "reason": "Remove mandatory runtime scope loading and resolve its incoming links."
+    },
+    {
+      "decision": "unresolved",
+      "reason": "Do not upgrade historical or missing source/recognition results to a current behavioral pass."
+    }
+  ],
+  "readme_review": {
+    "introduction": "preserve: distinctive opening, example, first action, language and narrator unchanged",
+    "installation": "qualify: remove reconstruction scope from conversational inputs",
+    "status": "preserve Candidate; clarify that old checks are not revalidated for changed runtime",
+    "particularity": "Preserved concrete spring explanation, commitment-versus-postponement, or disputed-rule encounter, respectively.",
+    "encounter": "Existing example shows the method with a real question.",
+    "entry": "Existing first prompt and repository installation remain intact.",
+    "honesty": "Examples remain suggested prompts; source limitations and Candidate status stay visible."
+  },
+  "assessment_applicability": [
+    {
+      "claim": "A’s proposed method changes enjoyment and uses forgetting and arbitrariness to prevent attachment.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/either-or-I-A.md": "sha256:821c31676ffb8f6c04c7e3870d9fd6eb222af6a0a773d9311c9f8b8931a2ba72"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The enclosing account portrays a double enjoyment of the situation and the self arranging it.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/seducers-diary.md": "sha256:f6ed838c078fbdf1c9ec813fa026e37a509fd0cc02bcdad24da921744a367ded"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The address distinguishes outward correctness from appropriation; the Ultimatum can offer comfort.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/either-or-II-B.md": "sha256:fcfb2c3a4231d97aed30e27005063121d82b82da0dbd0b49997d3dfc032ff036"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Resignation and faith are distinct movements; the absence of mediation preserves a difficulty rather than providing public certification.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/fear-and-trembling.md": "sha256:8084d148e3fac6a82983953d8cf06f297af15210fe0c6b5b3b4661b534fde50d"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The work distinguishes anxiety before possibility from object-directed fear.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/concept-of-anxiety.md": "sha256:c4d69f31ef562e3d1611d62f11ae453cc314289842dcb425ca5ff0cba95d23fa"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Unwillingness to be oneself and defiant self-authorship are distinguished inside a Christian account.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/sickness-unto-death.md": "sha256:3c7f669396ef469f846bee5132d89e52feabaf52350ba510fb15fb92f9253b2a"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The command presupposes self-love; building up presupposes love in another, and mercifulness need not depend on means.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/works-of-love.md": "sha256:fb12160dca3f1c7adadab2c186df9a739b6e05415f95aafd3caf3fdfce8963a7"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The review contrasts passion with reflective levelling and participation in an abstract public.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/two-ages.md": "sha256:a196e276f787a9423de107cd13e8debda0f9cc10a92bbf3abfd1899d1b0616b4"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The Socratic and alternative hypotheses differ; the alternative is not a generic reason to reject evidence.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/philosophical-fragments.md": "sha256:e2b8b74925c15194482f4b11a06dc42b38e3336a50a6c3183ba260e8eb18a710"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The narrative distinguishes a thesis about doubt from the activity of doubting; the father lets an opponent finish before the turn.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/registers/johannes-climacus.md": "sha256:9caec2e28510a3806cbc590b1f032ce63d1d573a83062486b80e180e83e0acbc"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The retained note denies identifying the author with the Judge, editor or pseudonymous books.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/clusters/source-map.md": "sha256:0324f58a5ffb0ddb04f9beef03d4492fb74610bb15b297ecaad698ebe4b481c9"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "The old record describes expressive variation, including comfort, ironic reversals and differing direct address.",
+      "previous_outcome": "inconclusive",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/voice.md": "sha256:7efb328b483794ce7c2b80215c30267cfcd280a62be645f6ff5e2fbf5e8a7b3a"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Task and format control, factual honesty, response to corrections and avoiding forged memories.",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:2e73baa7f31e1d6c357476467b4970d86cffdf33beec1c22333dab5193ee1e4a",
+        "references/scope.md": "sha256:53cd1b59b6616982f531bdaf3dfbc1bf18dcdbf0db0eb0028980905fb5ed9c3f"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    }
+  ],
+  "preserved_files": [
+    {
+      "original_path": "LICENSE",
+      "sha256": "sha256:5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+      "preserved_path": "LICENSE",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "README.md",
+      "sha256": "sha256:354cd01eb47c84ffc6e43e61d9e19a4624cc8b9c4c7402ddf388c659fab77561",
+      "preserved_path": "transworld-identity/migrations/scope-3fdcafc242ae39867b1cf49a875c9963d32b84e29c1c770ec2f128f67a71f617/originals/README.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": ".gitignore",
+      "sha256": "sha256:1adb1822b8c6d7f4efa64aa14e0aeb90e4f6767eefb419f5617ff3b19506fde6",
+      "preserved_path": ".gitignore",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "SKILL.md",
+      "sha256": "sha256:c1d3edbcf21ad178400f822d820a7b6e78a8898fbe49e6727e816cc771f80ab0",
+      "preserved_path": "transworld-identity/migrations/scope-3fdcafc242ae39867b1cf49a875c9963d32b84e29c1c770ec2f128f67a71f617/originals/SKILL.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "AGENTS.md",
+      "sha256": "sha256:d4ecfb7aa536f0f663fc18c8e8a714facf08bb5558f2d0654caff03439ee22d2",
+      "preserved_path": "transworld-identity/migrations/scope-3fdcafc242ae39867b1cf49a875c9963d32b84e29c1c770ec2f128f67a71f617/originals/AGENTS.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/frameworks.md",
+      "sha256": "sha256:aac70fd31112e96dd57572db2278e1d0f4da8e77b9f53e95a0a346de9d8d8807",
+      "preserved_path": "references/frameworks.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/voice.md",
+      "sha256": "sha256:de076ff0ab5915bc63aee2e0b1ff22aea6732e3d2b02e9061263878c148ba657",
+      "preserved_path": "transworld-identity/migrations/scope-3fdcafc242ae39867b1cf49a875c9963d32b84e29c1c770ec2f128f67a71f617/originals/references/voice.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/scope.md",
+      "sha256": "sha256:80c005576ef5fc633c8b230893d5200e2e4d0153db052899f577eba40f9bceac",
+      "preserved_path": "transworld-identity/migrations/scope-3fdcafc242ae39867b1cf49a875c9963d32b84e29c1c770ec2f128f67a71f617/originals/references/scope.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "transworld-identity/episodic.md",
+      "sha256": "sha256:4e84c701af55c54383cc8612d22f4c8769e79f4456299968d63c96113731467c",
+      "preserved_path": "transworld-identity/episodic.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/evidence.json",
+      "sha256": "sha256:238fd4432488fccb43a907be55c31a3dc265835bedcf2328cb511e126573fda4",
+      "preserved_path": "transworld-identity/evidence.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/recognition-design.json",
+      "sha256": "sha256:528f781605add5cabd83757a0aa27ff8c4228dcef3ac7af18fb3b9e047b1a155",
+      "preserved_path": "transworld-identity/recognition-design.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/preserved-records.json",
+      "sha256": "sha256:8c88117c9a5577333b32bb2804f2ee670cd9474d7471cc38c5375db6c4ea0398",
+      "preserved_path": "transworld-identity/preserved-records.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/package-validation.json",
+      "sha256": "sha256:b985624c293b67b55b76550670ad43e363061d09ae154d8e85722971e513dab1",
+      "preserved_path": "transworld-identity/package-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/upgrade-report.json",
+      "sha256": "sha256:1f285ae32afa229e595c52c96d53b9393fa2bc69b3f4f112dc7e4d1acc10763f",
+      "preserved_path": "transworld-identity/upgrade-report.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/provenance.md",
+      "sha256": "sha256:dbe6da7f687d6c779f4ceec54256e56a5e2e5baa33c47d0f65f0b03971ee2763",
+      "preserved_path": "transworld-identity/provenance.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/design-manifest.json",
+      "sha256": "sha256:eb8e3fbce86a3f1ab324f70493ad5caf47e3e2ddea084090cd1d984720b573a3",
+      "preserved_path": "transworld-identity/design-manifest.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/recognition-profile.md",
+      "sha256": "sha256:a6cdcd4ed99d1f353fb4b1997d4beac12e8c0acd74cc4e36b545f0897584a628",
+      "preserved_path": "transworld-identity/recognition-profile.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/source-review.json",
+      "sha256": "sha256:7502d19888dc582622205f29c7631133f090bd43590ac23a4c876b415d2f48e7",
+      "preserved_path": "transworld-identity/source-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/validation.json",
+      "sha256": "sha256:4366c0688ce4d77f5d62c166348bcb3a957b6ce4b52335651bd4d2cd7d5b2d86",
+      "preserved_path": "transworld-identity/history/structure-revision-2/transworld-identity/validation.json",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "transworld-identity/integrity-checks.json",
+      "sha256": "sha256:e3472945021d24952d9b88182dc99202b4bd369a365a4d9bd6bb9c31e9815cbb",
+      "preserved_path": "transworld-identity/integrity-checks.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/migrations/1789220185970262000.json",
+      "sha256": "sha256:fc04d9c92ef50a07923cc60f930e45b7a9f286ed3aace56a253263a51bb8a5b4",
+      "preserved_path": "transworld-identity/migrations/1789220185970262000.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/1789221064173169000-validation.json",
+      "sha256": "sha256:76b467d88f8ae1f4bfa624ff968a817d4021aa308e3e800e1e40c17b35ef9bac",
+      "preserved_path": "transworld-identity/history/1789221064173169000-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/pre-20260912/provenance.md",
+      "sha256": "sha256:5b5d4ffdc7ac278a879044b8f5a398d8f2251adbfc3a3ed7679ad66da3c1b387",
+      "preserved_path": "transworld-identity/history/pre-20260912/provenance.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/pre-20260912/SKILL.md",
+      "sha256": "sha256:4e5ef18716d687c628b0850ab02469b696def547cf797becefedbce685bc29b0",
+      "preserved_path": "transworld-identity/history/pre-20260912/SKILL.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/clusters/source-map.md",
+      "sha256": "sha256:80a3c630dda31f574774164e0e9ced74cf782d2c54d53e97bd6b4a007802074d",
+      "preserved_path": "references/clusters/source-map.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/two-ages.md",
+      "sha256": "sha256:9569cd84a4ee708a3b64aba310cc43a1f8c20af3c376ced5dcb966cb11718a03",
+      "preserved_path": "references/registers/two-ages.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/either-or-I-A.md",
+      "sha256": "sha256:80804ae4fecb9e06dcd75d7a3829a14ab24c59652c23a70de5180829141feac4",
+      "preserved_path": "references/registers/either-or-I-A.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/sickness-unto-death.md",
+      "sha256": "sha256:22370dfb262408d11405088a4292b94d95b73579e8ed6020bcf9520ed2a0ff17",
+      "preserved_path": "references/registers/sickness-unto-death.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/seducers-diary.md",
+      "sha256": "sha256:91aca86b8144c35a751950af4d5cd614623cef27669c7060f2bee2bc260009c4",
+      "preserved_path": "references/registers/seducers-diary.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/philosophical-fragments.md",
+      "sha256": "sha256:ce549def525cdc12b11a24a7298d23a3fd365b47400358f0f4e7395b53e2c6b5",
+      "preserved_path": "references/registers/philosophical-fragments.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/works-of-love.md",
+      "sha256": "sha256:cc7e03c9f4d3b36f94df87d34e7d2a08e76dc1f002deb112a84a4694234de867",
+      "preserved_path": "references/registers/works-of-love.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/fear-and-trembling.md",
+      "sha256": "sha256:e47b1b5a1ab274a3b36f75fc2a0383a1fb6e6a9a85ab1326916319da1ab534e7",
+      "preserved_path": "references/registers/fear-and-trembling.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/either-or-II-B.md",
+      "sha256": "sha256:2884b99e2bf268dcd23200c74e2b7c80360e71b59a909bba54b6de7e2a9ec777",
+      "preserved_path": "references/registers/either-or-II-B.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/concept-of-anxiety.md",
+      "sha256": "sha256:554df68eb180ae4e1665a8a7f3e0a4abc88c5f7bbccead4ae79622859441eb34",
+      "preserved_path": "references/registers/concept-of-anxiety.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/registers/johannes-climacus.md",
+      "sha256": "sha256:657b150b49aeede312d6f18d561860a3839ee9de6ef4dbbf957201780c7fc7dd",
+      "preserved_path": "references/registers/johannes-climacus.md",
+      "applicability": "applicable_unchanged"
+    }
+  ],
+  "runtime_hash": "sha256:3644165f20ad09d6e9d1928f3cdd8bc81f87c673f4138d6ef71b9221c96ce339",
+  "module_hashes": {
+    "SKILL.md": "sha256:dcdd6c39e58cbe90c8a45a7e911ba6d8d2069a869fbcb524d86c0cd7dca96f9d",
+    "references/clusters/source-map.md": "sha256:0324f58a5ffb0ddb04f9beef03d4492fb74610bb15b297ecaad698ebe4b481c9",
+    "references/frameworks.md": "sha256:a6b98a941672e275cca8c0332b10f5e565981b00e0b5b7cc20d9a9b66b0656cb",
+    "references/registers/concept-of-anxiety.md": "sha256:c4d69f31ef562e3d1611d62f11ae453cc314289842dcb425ca5ff0cba95d23fa",
+    "references/registers/either-or-I-A.md": "sha256:821c31676ffb8f6c04c7e3870d9fd6eb222af6a0a773d9311c9f8b8931a2ba72",
+    "references/registers/either-or-II-B.md": "sha256:fcfb2c3a4231d97aed30e27005063121d82b82da0dbd0b49997d3dfc032ff036",
+    "references/registers/fear-and-trembling.md": "sha256:8084d148e3fac6a82983953d8cf06f297af15210fe0c6b5b3b4661b534fde50d",
+    "references/registers/johannes-climacus.md": "sha256:9caec2e28510a3806cbc590b1f032ce63d1d573a83062486b80e180e83e0acbc",
+    "references/registers/philosophical-fragments.md": "sha256:e2b8b74925c15194482f4b11a06dc42b38e3336a50a6c3183ba260e8eb18a710",
+    "references/registers/seducers-diary.md": "sha256:f6ed838c078fbdf1c9ec813fa026e37a509fd0cc02bcdad24da921744a367ded",
+    "references/registers/sickness-unto-death.md": "sha256:3c7f669396ef469f846bee5132d89e52feabaf52350ba510fb15fb92f9253b2a",
+    "references/registers/two-ages.md": "sha256:a196e276f787a9423de107cd13e8debda0f9cc10a92bbf3abfd1899d1b0616b4",
+    "references/registers/works-of-love.md": "sha256:fb12160dca3f1c7adadab2c186df9a739b6e05415f95aafd3caf3fdfce8963a7",
+    "references/voice.md": "sha256:91dd4969e278eb86b95f6cd99078158dc8100bb769c5b645acbd631ef581052c"
+  },
+  "package_checks": {
+    "structure_revision": 2,
+    "strict": false,
+    "checks": [
+      {
+        "check": "S9",
+        "level": "error",
+        "ok": true,
+        "detail": "reconstruction scope and host boundaries present; editorial responsibilities require source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": true,
+        "detail": "one discoverable skill exists under .agents/skills/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": true,
+        "detail": "SKILL.md exists inside the discovered skill directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": true,
+        "detail": "references/, voice.md, and frameworks.md present",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": true,
+        "detail": "transworld-identity/provenance.md present outside .agents/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "warn",
+        "ok": true,
+        "detail": "transworld-identity/episodic.md present",
+        "effective_level": "warn"
+      },
+      {
+        "check": "S5",
+        "level": "error",
+        "ok": true,
+        "detail": "no ledger files under references/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S6",
+        "level": "warn",
+        "ok": true,
+        "detail": "cluster modules directory is references/clusters/",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter has name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter name matches .agents/skills directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": true,
+        "detail": "description is non-empty and runtime-facing",
+        "effective_level": "error"
+      },
+      {
+        "check": "C3",
+        "level": "warn",
+        "ok": true,
+        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C4",
+        "level": "error",
+        "ok": true,
+        "detail": "no banned implementation strings in core",
+        "effective_level": "error"
+      },
+      {
+        "check": "S7",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime/evaluation separation",
+        "effective_level": "error"
+      },
+      {
+        "check": "S8",
+        "level": "error",
+        "ok": true,
+        "detail": "no detected raw books or local paths",
+        "effective_level": "error"
+      },
+      {
+        "check": "C5",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime links and disk agree",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": true,
+        "detail": "all cNN citations resolve to a module",
+        "effective_level": "error"
+      },
+      {
+        "check": "L1",
+        "level": "warn",
+        "ok": true,
+        "detail": "no second-person or bare-English-imperative lines found",
+        "effective_level": "warn"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": true,
+        "detail": "provenance records the build contract and source/editorial lineage; content requires source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "L3",
+        "level": "error",
+        "ok": true,
+        "detail": "episodic.md exceeds near-empty floor",
+        "effective_level": "error"
+      },
+      {
+        "check": "X1",
+        "level": "error",
+        "ok": true,
+        "detail": "references contain no numeric composite/probe score pattern",
+        "effective_level": "error"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "verdict": "PASS"
+  },
+  "source_review": "Editorial semantic preservation checked against retained passages, not new primary-source verification.",
+  "recognition": "not_run; no applicable recognition pass existed; no new calls",
+  "historical_results": "Preserved byte-for-byte at the paths indexed below; old requests and protocols keep their original scope."
+}

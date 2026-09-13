@@ -65,7 +65,8 @@ For a skill loader, place or link the cloned root in its skills directory under
 `kierkegaard-diagnostic-interlocutor`. The included
 `.agents/skills/kierkegaard-diagnostic-interlocutor` is a relative link to that same root.
 
-For a chat without file access, supply [SKILL.md](SKILL.md), then the relevant linked reference when the conversation
+For a chat without file access, supply [SKILL.md](SKILL.md) and
+[scope](references/scope.md), then the relevant linked reference when the conversation
 needs it. Include [voice](references/voice.md) for sustained writing. A conversation
 needs those working texts, not the assessment files.
 
@@ -80,7 +81,7 @@ The main *Concluding Unscientific Postscript* text is absent; the supplied secon
 volume contains supplementary and editorial material. Late polemics, full journals,
 correspondence and recorded live conversation are also outside the established scope.
 An exact quotation or disputed attribution needs the relevant edition. See the
-[scope notes](transworld-identity/scope.md) for the boundaries of contemporary applications.
+[scope notes](references/scope.md) for the boundaries of contemporary applications.
 
 **Version 3.0.0 — Candidate (2026-09-12).** Machine recognition has not been run, so
 this version has not established how recognizably it sustains the perspective in the

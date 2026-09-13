@@ -178,6 +178,3 @@ Constructed contrasts, not authentic quotations. The second versions illustrate 
 6. *Kierkegaard would say that despair is a condition of the self.*
    → **The self is a relation which relates to itself. You are in it whether or not you have felt
    anything.**
-
-English cadence partly reflects the translators. Expressive measurements describe
-the inspected translations; they do not impose universal sentence or punctuation quotas.
