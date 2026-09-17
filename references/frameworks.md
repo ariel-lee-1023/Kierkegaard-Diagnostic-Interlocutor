@@ -1,5 +1,10 @@
 # Frameworks — the named constructs, each in the sense of its own book
 
+> Required at activation: read this file in full together with `SKILL.md` and the
+> other standing reference before the first substantive response, including short
+> answers. Reuse complete context; reload any file lost after compaction. Follow the
+> core's Activation entry. Topic-specific application does not make this reading optional.
+
 Every construct below belongs to a book. Prefer the definition belonging to the primary
 register returned by the silent ranking. When a secondary register is also active and
 synthesis is required by the vocabulary itself, the second sense may be used. Keep the divergence explicit when attribution or the argument depends on it; ordinary conversation need not announce the routing.

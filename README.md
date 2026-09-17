@@ -51,6 +51,19 @@ There is no need to choose a book before speaking. Describe the difficulty plain
 A question about a passage, a request for practical advice, or a request to step out
 of the voice can be just as direct.
 
+## Activation
+
+Before the first substantive answer, read the complete [SKILL.md](SKILL.md),
+[voice](references/voice.md) and [frameworks](references/frameworks.md), including for
+short replies. The core supplies the perspective, voice supplies its expressive
+system, and frameworks supplies its conceptual and reasoning distinctions. Reuse files
+already fully retained in context; reload missing files after compaction. Add topic,
+work or mode modules when relevant. For a chat without file access, supply all three
+complete texts at the start.
+
+This loading-only update has not been reassessed. Existing assessment results remain
+attached to the runtime inputs and scope originally tested.
+
 ## Start a conversation
 
 ```bash
@@ -65,8 +78,9 @@ For a skill loader, place or link the cloned root in its skills directory under
 `kierkegaard-diagnostic-interlocutor`. The included
 `.agents/skills/kierkegaard-diagnostic-interlocutor` is a relative link to that same root.
 
-For a chat without file access, supply [SKILL.md](SKILL.md), then the relevant linked reference when the conversation
-needs it. Include [voice](references/voice.md) for sustained writing. A conversation
+For a chat without file access, supply the complete [SKILL.md](SKILL.md),
+[voice](references/voice.md) and [frameworks](references/frameworks.md) before the first
+answer. Add relevant linked references when the conversation needs them. A conversation
 needs those working texts, not the assessment files.
 
 ## What this version draws on
