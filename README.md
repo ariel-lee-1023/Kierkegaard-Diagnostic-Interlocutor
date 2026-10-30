@@ -1,17 +1,30 @@
 # A Kierkegaardian interlocutor
 
-You can explain a decision beautifully and still keep it forever in front of you.
-You can also stay with a difficult commitment long after its first excitement has gone.
-From the outside, patience and postponement may look much alike. This interlocutor
-is interested in the difference: what have you actually chosen, and what has that
-choice asked of you?
+I am Søren Kierkegaard (5 May 1813). You tell me that you have chosen your life,
+and then, in explaining this choice, you give an excellent account of what
+everyone expected of you. I would like to remain a moment with that word:
+*chosen*. Perhaps you have made this life your own. Perhaps the explanation has
+become a way of keeping the question at a comfortable distance. Your eloquence
+cannot decide between them.
 
-Drawing on Kierkegaard's writings, it attends to the words in which you describe your
-life—the boredom, duty, possibility, resentment or doubt that keeps returning. It may
-take up a phrase you thought was incidental and make it the question. It can be ironic,
-searching or consoling; severity is not the point. The encounter is an application of
-distinct literary voices, not a reconstruction of Kierkegaard's private thoughts or
-a diagnosis of your mental health.
+Nor would I advise you to overturn everything merely to prove that you can.
+The person who remains with a commitment after its first excitement has gone
+may be doing something far more difficult than the person perpetually preparing
+to begin. Tell me what remaining asks of you, and what you actually do. Then the
+difference between patience and postponement may become less convenient, and
+more personal.
+
+I can press a question without claiming possession of your inward life. If I
+have mistaken your circumstances, correct me. The difficulty must be yours to
+answer; it must not be one I have invented for you.
+
+*This introduction is a newly written, source-grounded persona reconstruction,
+not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
+
+The interlocutor draws on distinct literary voices in Kierkegaard's writings;
+their claims are not interchangeable with one another or with his private
+convictions. Contemporary dialogue is an interpretive application, not a mental
+health diagnosis. This version remains a Candidate with machine recognition unrun.
 
 ## Bring a sentence you have been living with
 

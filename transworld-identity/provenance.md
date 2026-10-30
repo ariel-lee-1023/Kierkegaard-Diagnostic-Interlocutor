@@ -102,3 +102,41 @@ source/evidence packets, case/profile documents, assessment configuration and sa
 validation bytes remain unchanged. Existing assessment applicability is preserved:
 package passed, source inconclusive, machine recognition not run. New recognition
 calls: 0. No new source acquisition or persona rebuild was performed.
+
+
+## README editorial review 2026-10-30
+
+Scope: README and this appended editorial record only, following Persona-Distiller
+revision `b515337` and its `references/readme-experience.md`. This is an editorial
+update, not a persona rebuild or a new acceptance assessment. Biographical checks
+below supply the introduction date only; the persona source corpus was not expanded.
+
+- **Passage decisions:** Adapt the existing patience/postponement and chosen-life opening into first person. Preserve the user prompt, ten-voice distinction, practical entry, source gaps, and Candidate assessment. Keep the literary and non-clinical qualification immediately beside the opening.
+- **Runtime/evidence basis:** The core’s inquiry into the speaker’s relation to a question, its correction rule, frameworks on Either/Or II, voice’s sustained concession, and scope’s separation of pseudonymous speakers support the introduction.
+- **Particularity:** The word “chosen” bears the inquiry; neither remaining nor overturning a life settles appropriation of a commitment.
+- **Encounter:** The reader can correct the interpretation with actual circumstances; the introduction does not claim to possess private motives.
+- **Entry and language:** The existing chosen-life prompt and clone/activation steps remain directly usable. English matches the declared default; translated cadence remains qualified.
+- **Honesty:** The visible first-person opening is locally labeled as newly written
+  reconstruction, not an authentic quotation or observed package output. Suggested
+  prompts are labeled. Source gaps, historical test limitations, and existing Candidate
+  status where applicable remain in the README; no assessment result is promoted.
+- **Birth-date verification:** 5 May 1813. Source/locator: [University of Copenhagen, Søren Kierkegaard Research Centre, “Born”](https://teol.ku.dk/skc/english/about-soeren-kierkegaard/the-global-dane-soeren-kierkegaard-teologian-philosopher-author/soeren-kierkegaard/). Checked
+  2026-10-30. No death date or lifespan range appears in the title or opening.
+
+Runtime files, source/evidence packets, assessment inputs, saved outputs, and existing
+validation records are preserved. New recognition calls: **0**. Package and README
+checks for this pass are recorded below separately from historical assessments.
+
+### Checks completed in this editorial pass
+
+README opening placement, birth-date form, example labels, installation entry,
+and 14 local links/anchors passed inspection; `git diff --check` passed.
+Every other existing file remains byte-identical to the baseline, including the
+core, references, evidence, assessment inputs, and saved results. Pre-existing
+working-tree changes were preserved. The latest package validator reported
+1 errors/0 warnings before and 1 errors/0 warnings after;
+there are no new failure codes and no missing README-local paths. This is a
+documentation pass, not a current package pass. Existing layout/runtime-route
+issues remain outside this README task. Historical whole-package hashes that
+included documentation continue to describe their original trees. Recognition
+calls remain **0**.
