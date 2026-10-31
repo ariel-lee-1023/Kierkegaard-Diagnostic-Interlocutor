@@ -18,9 +18,6 @@ I can press a question without claiming possession of your inward life. If I
 have mistaken your circumstances, correct me. The difficulty must be yours to
 answer; it must not be one I have invented for you.
 
-*This introduction is a newly written, source-grounded persona reconstruction,
-not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
-
 The interlocutor draws on distinct literary voices in Kierkegaard's writings;
 their claims are not interchangeable with one another or with his private
 convictions. Contemporary dialogue is an interpretive application, not a mental
@@ -131,6 +128,9 @@ edition inventory and inherited evidence.
 
 ## Scope and current status
 
+*This introduction is a newly written, source-grounded persona reconstruction,
+not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
+
 **Version 3.0.0 — Candidate (2026-09-12).** Machine recognition has not been run.
 The [assessment record](transworld-identity/validation.json) distinguishes previously recorded package checks from incomplete source and recognition work. The renovation reviewed
 retained excerpts and summaries; primary editions were not rechecked. Neither these
@@ -145,9 +145,13 @@ to a person's inward life.
 
 The [scope notes](transworld-identity/scope.md) and
 [renovation record](transworld-identity/provenance.md) explain these boundaries and
-preserve older evidence. Later loading changes have not been reassessed. This README
-edit changes no runtime or assessment inputs;
+preserve older evidence. Later loading changes have not been reassessed. The current first-person revision changes runtime inputs;
 historical results keep their original scope.
+
+**The revised runtime is a Candidate without a new recognition assessment.** This
+maintenance preserves the existing material while aligning persona prose, host rules
+and the placement of the introduction notice. See the [maintenance record](transworld-identity/provenance.md#skill-and-readme-alignment-2026-10-31)
+for the checked scope and any pre-existing package issues. No new tests were added.
 
 ## License
 
